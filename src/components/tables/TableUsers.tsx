@@ -1,6 +1,6 @@
 import React from "react";
 import TableRowUser from "./TableRowUsers"; // Asegúrate de que la ruta sea correcta
-import { IUser, IUserUpdateAdmin } from "../../models/user.model"; // Asegúrate de actualizar la ruta si es necesario
+import { IUserUpdateAdmin } from "../../models/user.model"; // Asegúrate de actualizar la ruta si es necesario
 import styled from "styled-components";
 import TableHeaderUser from "./TableHeadUsers"; // Asegúrate de que la ruta sea correcta
 
