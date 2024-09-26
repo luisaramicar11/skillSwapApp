@@ -1,6 +1,6 @@
 "use client";
 import styled from "styled-components";
-import SkillTag from "../../../../ui/skillTag/skillTag";
+import SkillTag from "../../../../components/ui/skillTag/skillTag";
 import { useState, useEffect } from "react";
 import { OurAlertsText } from "@/src/lib/utils/ourAlertsText";
 import { IUser } from "@/src/models/user.model";

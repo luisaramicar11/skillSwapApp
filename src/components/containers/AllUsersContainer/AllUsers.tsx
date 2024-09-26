@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Card from "../../cards/CardDiscover";
 import { IAllUsersCardsProps } from "../../../models/userCards.model";
-import DivLink from "../../../ui/links/CardUserLink";
+import DivLink from "../../ui/links/CardUserLink";
 import { handlePageChange } from "@/src/lib/utils/handlePageTheme";
 
 const CardListContainer = styled.div`

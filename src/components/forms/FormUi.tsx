@@ -1,8 +1,8 @@
 "use client"
 import React from 'react';
 import styled from 'styled-components';
-import InputAuth from '../../ui/inputs/InputAuth';
-import ButtonSingUp from '../../ui/buttons/ButtonSingUp';
+import InputAuth from '../ui/inputs/InputAuth';
+import ButtonSingUp from '../ui/buttons/ButtonSingUp';
 
 const Container = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SkillTagTiny from "../../ui/skillTag/skillTagTiny";
+import SkillTagTiny from "../ui/skillTag/skillTagTiny";
 
 // Interfaz para los props de la Card
 interface IDiscoverCardProps {

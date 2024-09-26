@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import { handlePageChange } from "../../lib/utils/handlePageTheme";
-import StyledNavLink from "../../ui/links/NavLinks";
+import StyledNavLink from "../ui/links/NavLinks";
 
 const OfflineSidebarContainer = styled.div<{ isOpen: boolean }>`
   z-index: 1000;

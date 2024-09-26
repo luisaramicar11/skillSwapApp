@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { FaCheck, FaTimes, FaClock, FaArrowUp } from "react-icons/fa";
 import CardProfileLink from "../../components/cards/CardProfileLink";
-import LogoutButton from "../../ui/buttons/ButtonLogout";
+import LogoutButton from "../ui/buttons/ButtonLogout";
 import { FaSignOutAlt } from 'react-icons/fa';
 import { IUserCardProps } from "@/src/models/userCards.model";
 import { OurAlertsText } from "@/src/lib/utils/ourAlertsText";

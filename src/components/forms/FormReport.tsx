@@ -46,7 +46,7 @@ export const SubmitButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.bgPink};
+    background-color: ${({ theme }) => theme.colors.bgGreen};
   }
 `;
 

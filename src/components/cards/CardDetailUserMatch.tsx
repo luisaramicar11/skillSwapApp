@@ -3,7 +3,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import ModalRequest from "../modals/ModalMatch"
 import { IRequestOnDetailUserCardProps } from "@/src/models/detailUser.model";
-import SkillTag from "../../ui/skillTag/skillTag";
+import SkillTag from "../ui/skillTag/skillTag";
 import { Urbanist } from "next/font/google";
 
 const urbanist = Urbanist({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });

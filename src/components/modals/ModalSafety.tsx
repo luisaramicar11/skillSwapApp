@@ -20,7 +20,7 @@ const ModalOverlay = styled.div`
 `;
 
 const ModalContainer = styled.div`
-  background-color: ${({ theme }) => theme.colors.bgPink};
+  background-color: ${({ theme }) => theme.colors.bgGreen};
   width: 50%;
   height: 50%;
   padding: 1rem;
@@ -37,7 +37,7 @@ const ModalContainer = styled.div`
 
 const ModalHeader = styled.div`
   font-size: 1.5rem;
-  background: ${({ theme }) => theme.colors.backgroundPink};
+  background: ${({ theme }) => theme.colors.backgroundGreen};
   color: #fff;
   padding: 0.5rem;
   display: flex;

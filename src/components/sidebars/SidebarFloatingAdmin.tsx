@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
-import LogoutButton from "../../ui/buttons/ButtonLogout";
+import LogoutButton from "../ui/buttons/ButtonLogout";
 import { FaSignOutAlt } from 'react-icons/fa';
 
 const OfflineSidebarContainer = styled.div<{ isOpen: boolean }>`
