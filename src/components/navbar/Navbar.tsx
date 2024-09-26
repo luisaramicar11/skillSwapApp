@@ -1,7 +1,7 @@
 'use client';
 import styled from "styled-components";
 import React, { useState } from "react";
-import StyledIconNavLink from "../../ui/links/IconNavLink";
+import StyledIconNavLink from "../ui/links/IconNavLink";
 import InfoIcon from "@/public/svg/InfoIcon";
 import OfflineProfileSidebar from "../sidebars/SidebarFloatingOffline";
 

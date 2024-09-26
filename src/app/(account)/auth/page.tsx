@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import LoginPage from "../../../components/auth/login/Login";
 import RegisterPage from "../../../components/auth/register/Register";
-import StyledNavLink from "@/src/ui/links/NavLinks";
+import StyledNavLink from "@/src/components/ui/links/NavLinks";
 // Texto de cambio
 
 const TextWrapper = styled.div`

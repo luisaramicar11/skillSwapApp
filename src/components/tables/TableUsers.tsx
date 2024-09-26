@@ -62,7 +62,7 @@ const TableUser: React.FC<TableUserProps> = ({
 }) => {
   return (
     <TableContainer>
-      <Title>Tabla de usuarios</Title>
+      <Title>Tabla de Usuarios</Title>
       <TableStyle>
         <TableHeaderUser />
         <tbody>

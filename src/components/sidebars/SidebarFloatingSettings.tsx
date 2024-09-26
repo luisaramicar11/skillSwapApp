@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import StyledNavLink from "../../ui/links/NavLinks";
+import StyledNavLink from "../ui/links/NavLinks";
 
 const NavList = styled.ul`
     list-style: none;

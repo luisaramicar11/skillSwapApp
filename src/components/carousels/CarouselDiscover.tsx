@@ -9,7 +9,7 @@ import Card from "../cards/CardCarouselDiscover";
 import styled from "styled-components";
 import { IUserCarouselProps } from "@/src/models/userCards.model";
 import { OurAlertsText } from "@/src/lib/utils/ourAlertsText";
-import DivLink from "../../ui/links/CardUserLink";
+import DivLink from "../ui/links/CardUserLink";
 import { getAllUsersSorted } from "../../lib/api/users"; 
 
 const CustomSwiper = styled(Swiper)`

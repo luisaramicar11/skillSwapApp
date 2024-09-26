@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from 'next/navigation';
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
-import { logoutUser } from "../../../src/app/redux/slices/authSlice"; 
+import { logoutUser } from "../../../app/redux/slices/authSlice"; 
 
 // Definimos los tipos de props para el componente
 interface LogoutButtonProps {

@@ -4,13 +4,13 @@ import { useDispatch, useSelector } from 'react-redux';
 import { registerUser } from '../../../app/redux/slices/authSlice';
 import { toast } from 'react-toastify';
 import { AppDispatch, RootState } from '../../../app/redux/store';
-import InputAuth from "../../../ui/inputs/InputAuth"
-import Label from "../../../ui/labels/LabelAuth";
-import Select from "../../../ui/selects/SelectRegister";
-import TextArea from "../../../ui/textAreas/TextAreaRegister";
-import ButtonSingUp from '../../../ui/buttons/ButtonSingUp';
+import InputAuth from "../../ui/inputs/InputAuth"
+import Label from "../../ui/labels/LabelAuth";
+import Select from "../../ui/selects/SelectRegister";
+import TextArea from "../../ui/textAreas/TextAreaRegister";
+import ButtonSingUp from '../../ui/buttons/ButtonSingUp';
 import { handlePageChange } from '@/src/lib/utils/handlePageTheme';
-import StyledNavLink from '../../../ui/links/NavLinks';
+import StyledNavLink from '../../ui/links/NavLinks';
 
 //Syled
 import { DivUserData, DivUserInput, DivUserTitle, DivButtonSingUp, Form } from "./RegisterStyling"

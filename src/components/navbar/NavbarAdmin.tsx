@@ -4,9 +4,9 @@ import styled from "styled-components";
 
 import React, { useState } from "react";
 
-import StyledNavLink from "@/src/ui/links/NavLinks";
+import StyledNavLink from "@/src/components/ui/links/NavLinks";
 
-import StyledIconNavLink from "../../ui/links/IconNavLink";
+import StyledIconNavLink from "../ui/links/IconNavLink";
 
 import { handlePageChange } from "@/src/lib/utils/handlePageTheme";
 
