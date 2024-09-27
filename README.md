@@ -1,6 +1,6 @@
 ![Logotype](./public/img/skillswap-logotype.png)
 
-_SkillSwap_ is a modern platform designed to facilitate skill exchange, connecting people in the digital environment who want to learn with those willing to share their knowledge.
+__SkillSwap__ is a modern platform designed to facilitate skill exchange, connecting people in the digital environment who want to learn with those willing to share their knowledge.
 
 ## Why SkillSwap?
 
@@ -12,23 +12,23 @@ Facilitate continuous learning and collaborative teaching, creating a vibrant co
 
 ## Technologies Used
 
-- Frontend:
+- *Frontend*:
    - Next.js, TypeScript, Redux Toolkit, Styled Components, Bootstrap Icons
 
-- Backend:
+- *Backend*:
    - C#, .NET, Swagger, Azure
  
 ## Admin Credentials
 To access the admin panel, use the following credentials:
 
-- Email: arlex.z96@gmail.com
-- Password: @A12345
+- *Email*: arlex.z96@gmail.com
+- *Password*: @A12345
 
 These credentials should be used only for administrative purposes.
 
 ## Project Structure
 
-bash
+```bash
 ├── public
 │   ├── img
 │   └── svg
@@ -77,7 +77,7 @@ bash
 │   ├── models
 │   └─── middleware.ts
 └─── .env.local (OPTIONAL)
-
+```
 
 ## Resources
 
@@ -119,32 +119,32 @@ bash
 
 1. Clone the repository:
 
-bash
+```bash
 git clone https://github.com/luisaramicar11/skillSwap.git
-
+```
 
 2. Run the project in terminal:
 
-bash
+```bash
 npm run dev
+```
 
-
-3. Create a file named _".env.local"_ in the root of the project:
+3. Create a file named __".env.local"__ in the root of the project:
 
 - This file should contain a GITHUB token allowing you to preview users' GitHub profiles.
-- However, due to the *".gitignore"*, you may not have this file when cloning this project, or it may be automatically deleted during transfer.
+- However, due to the **".gitignore"**, you may not have this file when cloning this project, or it may be automatically deleted during transfer.
 - It is recommended that you create it manually, but don’t worry; this will not affect your experience.
 - You will need to generate your own GITHUB token, which you can obtain by following the instructions on GitHub or just go to the end of this document, where we will explain it to you. 
 
-bash
+```bash
 .env.local
-
+```
 
 4. Write the following code in the previously created file to keep the token in your project. You must name the variable this way, otherwise, it will not work:
 
-bash
+```bash
 NEXT_PUBLIC_GITHUB_TOKEN=your_generated_token_here
-
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) on your browser and enjoy our project.
 
@@ -156,36 +156,36 @@ NEXT_PUBLIC_GITHUB_TOKEN=your_generated_token_here
 
 ### How to Generate a GitHub Personal Access Token
 
-1. *Log in to GitHub*:
+1. **Log in to GitHub**:
    - Go to [GitHub](https://github.com) and log in to your account.
 
-2. *Navigate to Settings*:
+2. **Navigate to Settings**:
    - Click on your profile picture in the top right corner.
-   - Select *Settings* from the dropdown menu.
+   - Select **Settings** from the dropdown menu.
 
-3. *Access Developer Settings*:
-   - In the left sidebar, scroll down and click on *Developer settings*.
+3. **Access Developer Settings**:
+   - In the left sidebar, scroll down and click on **Developer settings**.
 
-4. *Personal Access Tokens*:
-   - Click on *Personal access tokens* in the left sidebar.
-   - Select *Tokens (classic)*.
+4. **Personal Access Tokens**:
+   - Click on **Personal access tokens** in the left sidebar.
+   - Select **Tokens (classic)**.
 
-5. *Generate New Token*:
-   - Click on the *Generate new token* button.
+5. **Generate New Token**:
+   - Click on the **Generate new token** button.
 
-6. *Set Token Scopes*:
-   - Give your token a descriptive *note*.
-   - Set the *expiration* for the token as needed.
+6. **Set Token Scopes**:
+   - Give your token a descriptive **note**.
+   - Set the **expiration** for the token as needed.
    - Select the scopes for the token:
-     - *repo*: Full control of private repositories.
-     - *user*: Read and write access to profile data.
+     - **repo**: Full control of private repositories.
+     - **user**: Read and write access to profile data.
 
-7. *Generate and Copy the Token*:
-   - Click on *Generate token*.
-   - *Copy* the generated token. You won’t be able to see it again!
+7. **Generate and Copy the Token**:
+   - Click on **Generate token**.
+   - **Copy** the generated token. You won’t be able to see it again!
 
-8. *Store Your Token*:
-   - Save your token securely, such as in a .env.local file, and use it in your project as needed.
+8. **Store Your Token**:
+   - Save your token securely, such as in a `.env.local` file, and use it in your project as needed.
 
 ### Important:
 Make sure to keep your token private. If you believe it has been compromised, revoke it immediately and generate a new one.
